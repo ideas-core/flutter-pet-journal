@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../../../utils/common_color.dart';
+
 class TotalPage extends StatefulWidget {
   const TotalPage({super.key});
 
@@ -12,7 +14,12 @@ class _TotalPageState extends State<TotalPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Total"),
+        title: const Text("토탈 뷰", style: TextStyle(
+          color: Color(black21),
+              fontSize: 21,
+          fontFamily: "NotoSans",
+          fontWeight: FontWeight.w700
+        )),
       ),
     );
   }
