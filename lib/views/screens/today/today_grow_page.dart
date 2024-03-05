@@ -11,7 +11,7 @@ class _TodayGrowPageState extends State<TodayGrowPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("TodayGrow"),
+        title: Text('오늘의 성장', style: Theme.of(context).textTheme.titleLarge),
       ),
     );
   }
